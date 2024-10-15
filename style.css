@@ -1,0 +1,92 @@
+/* service */
+#services {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+#services h2 {
+    text-align: center;
+    color: #003366;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.service {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+/* whatsapp icon */
+.whatsapp-icon {
+    position: fixed; /* Keeps it in a fixed position on the screen */
+    right: 20px; /* Distance from the left side */
+    bottom: 20px; /* Distance from the bottom */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
+
+.whatsapp-icon img {
+    width: 40px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20%; /* Optional: gives it a circular look */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for better visibility */
+    
+}
+/* footer css */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
